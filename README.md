@@ -18,21 +18,21 @@ https://github.com/gpra012333/Face-Mask-Detection/assets/142736928/a632400e-6c89
 ## Features
 
 - Real-time face detection using a webcam.
-- Classification of individuals as wearing a mask or not wearing a mask based on the presence of eyes.
+- Classification of individuals as wearing a mask or not wearing a mask based on the presence of eyes and face.
 - Visual indication on the screen showing the detection result.
 
 ## Installation
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11.5
 - OpenCV library
 
 ### Steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/face-mask-detection.git
+    git clone https://github.com/gpra012333/face-mask-detection.git
     cd face-mask-detection
     ```
 
