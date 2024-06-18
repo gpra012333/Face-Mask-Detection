@@ -57,7 +57,6 @@ https://github.com/gpra012333/Face-Mask-Detection/assets/142736928/a632400e-6c89
 2. The application will start the webcam and begin detecting faces and eyes in real-time. Based on the detection results, it will display one of the following messages on the screen:
     - "Person Wearing Mask" (if no face is detected but eyes are detected)
     - "Person not Wearing Mask" (if a face is detected along with eyes)
-    - "Face Mask Detection Model" (if neither face nor eyes are detected)
 
 ### Code Explanation
 
@@ -85,8 +84,6 @@ def get_predict():
                 cv2.putText(frame, "Person Wearing Mask", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
             else:
                 cv2.putText(frame, "Person not Wearing Mask", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
-        else:
-            cv2.putText(frame, "Face Mask Detection Model", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (150, 0, 150), 2)
 
         cv2.imshow('Face', frame)  # Display the resulting frame
 
