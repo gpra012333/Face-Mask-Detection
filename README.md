@@ -1,4 +1,4 @@
-# Face Mask Detection Model
+# Face Mask Detection Model (Along with Demo Video)
 
 This project leverages an Image Processing model to create a classifier system for detecting whether a person is wearing a face mask using OpenCV and Haar cascades.
 
